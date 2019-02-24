@@ -19,10 +19,16 @@
     "css-loader": "^2.1.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-hot-loader": "^4.7.1",
     "style-loader": "^0.23.1",
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "@tensorflow-models/knn-classifier": "^0.2.2",
+    "@tensorflow-models/mobilenet": "^0.2.2",
+    "@tensorflow/tfjs": "^0.15.3",
+    "react-hot-loader": "^4.7.1"
   }
 }
